@@ -495,7 +495,6 @@ margin-left: 24px;
 .subcribe-form {
     display: flex;
     gap: 24px;
-
 }
 
 .subscribe-input {
@@ -511,10 +510,16 @@ margin-left: 24px;
     line-height: 2;           
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    transition: border var(--transition-dur-tf);
 }
 
 .subscribe-input::placeholder{
     color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-input:focus {
+    outline: none;
+    border: 1px solid var(--logo-btn-color);
 }
 
 .subscribe-button {  
