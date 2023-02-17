@@ -844,18 +844,10 @@ margin-left: 24px;
     margin-right: 8px;
 }
 
-.checkbox-input:checked + .modal-checkbox-label::before {
-    background-color: var(--accent-color);
-    background-image: url(../images/vector.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.checkbox-input:focus +.modal-checkbox-label::before {
-    background-color: var(--accent-color);
-    background-image: url(../images/vector.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+.checkbox-input:checked +.modal-checkbox-label::before {
+    
+    background-image: url(../images/click.svg);
+    border: none;
 }
 
 .modal-policy-link {
