@@ -844,8 +844,11 @@ margin-left: 24px;
     margin-right: 8px;
 }
 
+.checkbox-input:focus +.modal-checkbox-label::before {
+    border: 1.25px solid var(--accent-color);
+}
+
 .checkbox-input:checked +.modal-checkbox-label::before {
-    
     background-image: url(../images/click.svg);
     border: none;
 }
